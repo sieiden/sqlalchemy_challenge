@@ -100,9 +100,9 @@ def user_input(start, end):
     session = Session(engine)
     
     if end:
-        results = session.query(func.min(measurement.tobs),func.max(measurement.tobs),func.avg(measurement.tobs)).filter(measurement.date.between('start', 'end')).all()
+        results = session.query(func.min(measurement.tobs),func.max(measurement.tobs),func.avg(measurement.tobs)).filter(measurement.date.between(start, end)).all()
     else:
-        results = session.query(func.min(measurement.tobs),func.max(measurement.tobs),func.avg(measurement.tobs)).filter(measurement.date>= 'start').all()
+        results = session.query(func.min(measurement.tobs),func.max(measurement.tobs),func.avg(measurement.tobs)).filter(measurement.date>= start).all()
     
     session.close()
 
