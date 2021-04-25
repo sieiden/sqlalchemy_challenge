@@ -16,6 +16,7 @@ The most frequently occuring average temperature at Station USC00519281	are aver
 The data can also be found using the following routes:
 
 **Available Routes:**
+
 /api/v1.0/precipitation
 
 /api/v1.0/stations
