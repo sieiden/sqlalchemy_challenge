@@ -17,6 +17,9 @@ The data can also be found using the following routes:
 
 **Available Routes:**
 /api/v1.0/precipitation
+
 /api/v1.0/stations
+
 /api/v1.0/tobs
+
 /apiv1.0/<start_date>/<end_date>
