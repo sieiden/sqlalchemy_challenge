@@ -14,6 +14,7 @@ The station with the most recorded activity is Station USC00519281.
 The most frequently occuring average temperature at Station USC00519281	are average temperatures between 75F and 80F.
 
 The data can also be found using the following routes:
+
 **Available Routes:**
 /api/v1.0/precipitation
 /api/v1.0/stations
