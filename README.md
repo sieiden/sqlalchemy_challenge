@@ -13,7 +13,7 @@ The station with the most recorded activity is Station USC00519281.
 
 The most frequently occuring average temperature at Station USC00519281	are average temperatures between 75F and 80F.
 
-The data can also be found using the following routes:
+The data can also be found using the following routes using your local server:
 
 **Available Routes:**
 
@@ -24,3 +24,5 @@ The data can also be found using the following routes:
 /api/v1.0/tobs
 
 /apiv1.0/<start_date>/<end_date>
+
+*please note: user input for last route must be entered in YYY-MM-DD format
