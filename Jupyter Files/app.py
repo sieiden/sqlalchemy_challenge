@@ -40,7 +40,7 @@ def home():
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
-        f"/apiv1.0/<start>/<end>"
+        f"/api/v1.0/<start>/<end>"
     )
 
 @app.route("/api/v1.0/precipitation")
@@ -94,7 +94,8 @@ def tobs():
 
     return jsonify(results)
 
-@app.route("/apiv1.0/<start>/<end>")
+
+@app.route("/api/v1.0/<start>/<end>")
 def user_input(start, end):
     
     session = Session(engine)
